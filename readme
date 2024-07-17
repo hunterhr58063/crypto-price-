@@ -1,0 +1,29 @@
+Crypto Price Display Website
+
+Overview :-
+This project is a simple web application built with Next.js to display real-time cryptocurrency prices. It includes functionality to change the displayed cryptocurrency symbol and fetches recent price data from an external API.
+
+Features:-
+Symbol Change Modal: Allows users to select from popular cryptocurrencies (BTC, ETH, USDT, BNB, SOL) to display their current price.
+Real-time Updates: Fetches and displays recent price data every 10 seconds.
+Responsive Design: Optimized for various screen sizes to ensure a consistent user experience.
+
+Technologies Used:-
+Next.js: Framework for building React applications with server-side rendering.
+React: JavaScript library for building user interfaces.
+Tailwind CSS: Utility-first CSS framework used for styling components.
+Redux: State management library for managing application state.
+MongoDB: NoSQL database used to store fetched cryptocurrency data.
+Node.js: Runtime environment for executing JavaScript code server-side.
+
+Installation:-
+git clone <repository_url>
+npm install
+npm run dev
+
+API Setup:-
+Ensure MongoDB is running and configure your environment variables (MONGODB_URI) for the API. The API fetches cryptocurrency data using the LiveCoinWatch API and stores it in MongoDB.
+
+Usage:-
+Select a cryptocurrency symbol from the dropdown in the main page to view its current price.
+Recent price data is displayed in a table with columns for symbol, rate, time, and date.
